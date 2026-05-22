@@ -1,0 +1,45 @@
+:root {
+  --color-ink: #4a4a4a;
+  --color-mist: #cbcbcb;
+  --color-ivory: #ffffe3;
+  --color-brand: #6d8196;
+  --color-surface: #f8f8ee;
+  --color-panel: rgba(255, 255, 255, 0.88);
+  --color-border: rgba(74, 74, 74, 0.18);
+  --color-border-strong: rgba(74, 74, 74, 0.38);
+  --color-text: rgba(74, 74, 74, 0.88);
+  --color-text-strong: #4a4a4a;
+  --shadow-soft:
+    0 20px 34px rgba(74, 74, 74, 0.12),
+    0 6px 14px rgba(109, 129, 150, 0.18);
+
+  font-family: 'Trebuchet MS', 'Gill Sans', 'Segoe UI', sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  min-height: 100%;
+  scroll-behavior: smooth;
+}
+
+body {
+  color: var(--color-text);
+  background:
+    linear-gradient(178deg, #ffffe3 0%, #f3f3e4 52%, #ececdc 100%);
+}
+
+#root {
+  min-height: 100svh;
+}
