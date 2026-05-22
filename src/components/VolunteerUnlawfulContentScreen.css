@@ -1,0 +1,88 @@
+.volunteer-unlawful-wrap {
+  background: #ececec;
+  padding: 4rem 1rem 3rem;
+}
+
+.volunteer-unlawful-panel {
+  max-width: 90%;
+  margin: 0 auto;
+  background: #f5f5f5;
+  border: 1px solid #dddddd;
+  padding: 1.85rem 2rem;
+}
+
+.volunteer-unlawful-panel h2 {
+  color: #5a3eb6;
+  font-size: 2rem;
+  line-height: 1.2;
+  margin-bottom: 1.2rem;
+}
+
+.volunteer-unlawful-panel p {
+  color: #111111;
+  font-size: 1.14rem;
+  line-height: 1.65;
+  margin-bottom: 1rem;
+}
+
+.volunteer-unlawful-list {
+  margin: 0 0 1rem;
+  padding-left: 2.2rem;
+  color: #111111;
+}
+
+.volunteer-unlawful-list li {
+  font-size: 1.12rem;
+  line-height: 1.6;
+  margin-bottom: 0.55rem;
+}
+
+@media (max-width: 768px) {
+  .volunteer-unlawful-wrap {
+    padding: 1rem 0.75rem 1.4rem;
+  }
+
+  .volunteer-unlawful-panel {
+    padding: 1.15rem 1rem;
+  }
+
+  .volunteer-unlawful-panel h2 {
+    font-size: 1.45rem;
+    margin-bottom: 0.8rem;
+  }
+
+  .volunteer-unlawful-panel p,
+  .volunteer-unlawful-list li {
+    font-size: 0.98rem;
+    line-height: 1.55;
+  }
+
+  .volunteer-unlawful-list {
+    padding-left: 1.5rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .volunteer-unlawful-wrap {
+    padding: 0.85rem 0.55rem 1rem;
+  }
+
+  .volunteer-unlawful-panel {
+    padding: 0.9rem 0.8rem;
+  }
+
+  .volunteer-unlawful-panel h2 {
+    font-size: 1.1rem;
+    margin-bottom: 0.65rem;
+  }
+
+  .volunteer-unlawful-panel p,
+  .volunteer-unlawful-list li {
+    font-size: 0.84rem;
+    line-height: 1.5;
+  }
+
+  .volunteer-unlawful-list {
+    padding-left: 1.2rem;
+  }
+}

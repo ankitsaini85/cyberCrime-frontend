@@ -1,0 +1,118 @@
+.volunteer-terms-wrap {
+  background: #ececec;
+  padding: 4rem 1rem 3rem;
+}
+
+.volunteer-terms-panel {
+  max-width: 90%;
+  margin: 0 auto;
+  background: #f5f5f5;
+  border: 1px solid #dddddd;
+  padding: 1.85rem 2rem;
+}
+
+.volunteer-terms-panel h2 {
+  color: #5a3eb6;
+  font-size: 1.6rem;
+  line-height: 1.2;
+  margin-bottom: 1.2rem;
+  padding-top: 3rem;
+}
+
+.volunteer-terms-panel ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.volunteer-terms-panel li {
+  color: #111111;
+  font-size: 1rem;
+  line-height: 1.65;
+  margin-bottom: 1.25rem;
+  /* border-top: 1px solid #e2e2e2; */
+  padding-top: 1.2rem;
+  position: relative;
+  padding-left: 1.5rem;
+}
+
+.volunteer-terms-panel li::before {
+  content: '\2022';
+  position: absolute;
+  left: 0;
+  top: 1.15rem;
+  color: #111111;
+  font-size: 1.2rem;
+}
+
+.volunteer-terms-panel li:first-child {
+  border-top: 0;
+  padding-top: 0;
+}
+
+.volunteer-terms-panel li:first-child::before {
+  top: 0.15rem;
+}
+
+@media (max-width: 768px) {
+  .volunteer-terms-wrap {
+    padding: 1rem 0.75rem 1.4rem;
+  }
+
+  .volunteer-terms-panel {
+    padding: 1.15rem 1rem;
+  }
+
+  .volunteer-terms-panel h2 {
+    font-size: 1.45rem;
+    margin-bottom: 0.8rem;
+  }
+
+  .volunteer-terms-panel li {
+    font-size: 0.98rem;
+    line-height: 1.55;
+    margin-bottom: 0.85rem;
+    padding-top: 0.8rem;
+    padding-left: 1.2rem;
+  }
+
+  .volunteer-terms-panel li::before {
+    top: 0.72rem;
+  }
+
+  .volunteer-terms-panel li:first-child::before {
+    top: 0.1rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .volunteer-terms-wrap {
+    padding: 0.85rem 0.55rem 1rem;
+  }
+
+  .volunteer-terms-panel {
+    padding: 0.9rem 0.8rem;
+  }
+
+  .volunteer-terms-panel h2 {
+    font-size: 1.1rem;
+    margin-bottom: 0.65rem;
+  }
+
+  .volunteer-terms-panel li {
+    font-size: 0.84rem;
+    line-height: 1.5;
+    margin-bottom: 0.72rem;
+    padding-top: 0.62rem;
+    padding-left: 1rem;
+  }
+
+  .volunteer-terms-panel li::before {
+    top: 0.56rem;
+    font-size: 1rem;
+  }
+
+  .volunteer-terms-panel li:first-child::before {
+    top: 0.08rem;
+  }
+}

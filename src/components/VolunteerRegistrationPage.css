@@ -1,0 +1,133 @@
+.volunteer-form-wrap {
+  padding: 28px 16px 40px;
+}
+
+.volunteer-form-panel {
+  max-width: 980px;
+  margin: 0 auto;
+  background: #ffffff;
+  border: 1px solid #d9e2ef;
+  border-radius: 16px;
+  padding: 24px;
+  box-shadow: 0 10px 25px rgba(9, 32, 65, 0.08);
+}
+
+.volunteer-form-panel h2 {
+  color: #092041;
+  margin-bottom: 6px;
+}
+
+.volunteer-form-panel p {
+  color: #4f5f74;
+  margin-bottom: 16px;
+}
+
+.volunteer-inline-login-note {
+  margin-top: -8px;
+  margin-bottom: 16px;
+  color: #325376;
+}
+
+.volunteer-inline-login-note a {
+  color: #0a62f0;
+  font-weight: 600;
+}
+
+.volunteer-form-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 14px;
+}
+
+.volunteer-field {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.volunteer-field-full {
+  grid-column: 1 / -1;
+}
+
+.volunteer-field label {
+  font-weight: 600;
+  color: #19304f;
+}
+
+.volunteer-field input,
+.volunteer-field select {
+  border: 1px solid #b8c8dd;
+  border-radius: 10px;
+  padding: 10px 12px;
+  font-size: 14px;
+  min-width: 0;
+}
+
+.volunteer-field textarea {
+  border: 1px solid #b8c8dd;
+  border-radius: 10px;
+  padding: 10px 12px;
+  font-size: 14px;
+  min-width: 0;
+  resize: vertical;
+}
+
+.volunteer-field small {
+  color: #2a4a75;
+  overflow-wrap: anywhere;
+}
+
+.volunteer-form-error {
+  grid-column: 1 / -1;
+  color: #c51313;
+  font-weight: 700;
+  background: #ffe7e7;
+  border: 1px solid #efb1b1;
+  border-radius: 8px;
+  padding: 10px 12px;
+}
+
+.volunteer-form-success {
+  grid-column: 1 / -1;
+  color: #0b6b3a;
+  font-weight: 600;
+}
+
+.volunteer-actions {
+  flex-direction: row;
+  justify-content: flex-end;
+}
+
+.volunteer-outline-btn,
+.volunteer-submit-btn {
+  border: none;
+  border-radius: 10px;
+  padding: 10px 16px;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.volunteer-outline-btn {
+  background: #e9eef6;
+  color: #16365a;
+}
+
+.volunteer-submit-btn {
+  background: #092041;
+  color: #ffffff;
+}
+
+@media (max-width: 768px) {
+  .volunteer-form-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .volunteer-actions {
+    flex-direction: column;
+  }
+
+  .volunteer-outline-btn,
+  .volunteer-submit-btn {
+    width: 100%;
+  }
+}

@@ -1,0 +1,176 @@
+.volunteer-register-wrap {
+  background: #ececec;
+  padding: 4rem 1rem 3rem;
+}
+
+.volunteer-register-panel {
+  max-width: 90%;
+  margin: 0 auto;
+  background: #f5f5f5;
+  border: 1px solid #dddddd;
+  padding: 1.85rem 2rem;
+}
+
+.volunteer-register-panel h2 {
+  color: #5a3eb6;
+  font-size: 1.6rem;
+  line-height: 1.2;
+  margin-bottom: 1.2rem;
+}
+
+.volunteer-register-panel h3 {
+  color: #ffffff;
+  font-size: 1.35rem;
+  margin: 1rem 0 0.7rem;
+  background-color: #0a62f0;
+ 
+}
+
+.volunteer-register-panel p {
+  color: #111111;
+  font-size: 1.14rem;
+  line-height: 1.65;
+  margin-bottom: 1rem;
+}
+
+.volunteer-register-steps {
+  margin: 0;
+  padding-left: 2.2rem;
+  color: #111111;
+}
+
+.volunteer-register-steps > li {
+  font-size: 1.12rem;
+  line-height: 1.6;
+  margin-bottom: 0.95rem;
+}
+
+.volunteer-register-subpoints {
+  margin: 0.6rem 0 0;
+  padding-left: 1.4rem;
+}
+
+.volunteer-register-subpoints li {
+  font-size: 1.08rem;
+  line-height: 1.6;
+  margin-bottom: 0.35rem;
+}
+
+.volunteer-register-types {
+  margin-top: 0.4rem;
+  padding-left: 0.2rem;
+}
+
+.volunteer-register-types p {
+  margin: 0 0 0.35rem;
+  font-size: 1.08rem;
+  font-weight: 600;
+}
+
+.volunteer-register-action {
+  display: flex;
+  justify-content: center;
+  gap: 0.8rem;
+  flex-wrap: wrap;
+  margin-top: 1.8rem;
+}
+
+.volunteer-register-btn {
+  text-decoration: none;
+  background: #068a48;
+  color: #ffffff;
+  border: 1px solid #00307e;
+  border-radius: 8px;
+  padding: 0.78rem 1.3rem;
+  font-size: 1rem;
+  font-weight: 700;
+}
+
+.volunteer-register-btn:hover {
+  background: #0848aa;
+}
+
+.volunteer-login-btn {
+  background: #0a62f0;
+}
+
+.volunteer-login-btn:hover {
+  background: #0848aa;
+}
+
+@media (max-width: 768px) {
+  .volunteer-register-wrap {
+    padding: 1rem 0.75rem 1.4rem;
+  }
+
+  .volunteer-register-panel {
+    padding: 1.15rem 1rem;
+  }
+
+  .volunteer-register-panel h2 {
+    font-size: 1.45rem;
+    margin-bottom: 0.8rem;
+  }
+
+  .volunteer-register-panel h3 {
+    font-size: 1.1rem;
+    margin: 0.75rem 0 0.55rem;
+  }
+
+  .volunteer-register-panel p {
+    font-size: 0.98rem;
+    line-height: 1.55;
+  }
+
+  .volunteer-register-steps {
+    padding-left: 1.5rem;
+  }
+
+  .volunteer-register-steps > li,
+  .volunteer-register-subpoints li,
+  .volunteer-register-types p {
+    font-size: 0.95rem;
+    line-height: 1.5;
+  }
+
+  .volunteer-register-btn {
+    font-size: 0.92rem;
+    padding: 0.68rem 1.05rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .volunteer-register-wrap {
+    padding: 0.85rem 0.55rem 1rem;
+  }
+
+  .volunteer-register-panel {
+    padding: 0.9rem 0.8rem;
+  }
+
+  .volunteer-register-panel h2 {
+    font-size: 1.1rem;
+    margin-bottom: 0.65rem;
+  }
+
+  .volunteer-register-panel h3 {
+    font-size: 0.95rem;
+  }
+
+  .volunteer-register-panel p,
+  .volunteer-register-steps > li,
+  .volunteer-register-subpoints li,
+  .volunteer-register-types p {
+    font-size: 0.84rem;
+    line-height: 1.5;
+  }
+
+  .volunteer-register-steps {
+    padding-left: 1.2rem;
+  }
+
+  .volunteer-register-btn {
+    font-size: 0.82rem;
+    padding: 0.58rem 0.9rem;
+  }
+}

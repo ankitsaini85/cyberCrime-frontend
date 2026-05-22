@@ -1,0 +1,166 @@
+.coordinator-card-setup-shell {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 1rem;
+}
+
+.coordinator-card-setup-copy {
+  margin-bottom: 2rem;
+  text-align: center;
+  padding: 0 1rem;
+}
+
+.coordinator-card-setup-copy h2 {
+  margin: 0 0 0.5rem 0;
+  font-size: 24px;
+  font-weight: 700;
+  color: #333;
+}
+
+.coordinator-card-setup-copy p {
+  margin: 0;
+  font-size: 14px;
+  color: #666;
+}
+
+.coordinator-card-setup-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 2rem;
+  align-items: start;
+}
+
+.coordinator-card-setup-form {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  background: #f9f9f9;
+  padding: 1.5rem;
+  border-radius: 8px;
+  border: 1px solid #e0e0e0;
+}
+
+.coordinator-card-form-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1rem;
+}
+
+.coordinator-card-field {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.coordinator-card-field-full {
+  grid-column: 1 / -1;
+}
+
+.coordinator-card-field label {
+  font-weight: 600;
+  font-size: 13px;
+  color: #333;
+}
+
+.coordinator-card-field input {
+  padding: 0.75rem;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 13px;
+  font-family: inherit;
+}
+
+.coordinator-card-field input:read-only {
+  background-color: #f0f0f0;
+  cursor: not-allowed;
+  color: #666;
+}
+
+.coordinator-card-field input[type="file"] {
+  padding: 0.5rem;
+  cursor: pointer;
+}
+
+.coordinator-card-form-actions {
+  display: flex;
+  gap: 0.5rem;
+  justify-content: flex-start;
+  margin-top: 0.5rem;
+}
+
+.coordinator-card-form-actions button {
+  min-width: 150px;
+}
+
+.coordinator-card-preview-wrap {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.coordinator-card-preview-placeholder {
+  height: 600px;
+  background: #f9f9f9;
+  border: 2px dashed #ccc;
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 2rem;
+  text-align: center;
+  color: #999;
+  font-size: 14px;
+}
+
+@media (max-width: 1024px) {
+  .coordinator-card-setup-grid {
+    grid-template-columns: 1fr;
+    gap: 1.5rem;
+  }
+
+  .coordinator-card-preview-placeholder {
+    min-height: 400px;
+  }
+}
+
+@media (max-width: 768px) {
+  .coordinator-card-setup-shell {
+    padding: 0.5rem;
+  }
+
+  .coordinator-card-setup-copy {
+    margin-bottom: 1.5rem;
+    padding: 0;
+  }
+
+  .coordinator-card-setup-copy h2 {
+    font-size: 20px;
+  }
+
+  .coordinator-card-setup-copy p {
+    font-size: 13px;
+  }
+
+  .coordinator-card-setup-form {
+    padding: 1rem;
+  }
+
+  .coordinator-card-form-grid {
+    grid-template-columns: 1fr;
+    gap: 0.75rem;
+  }
+
+  .coordinator-card-field label {
+    font-size: 12px;
+  }
+
+  .coordinator-card-field input {
+    font-size: 12px;
+    padding: 0.6rem;
+  }
+
+  .coordinator-card-grid-preview {
+    min-height: 300px;
+  }
+}

@@ -1,0 +1,658 @@
+.other-services-section {
+  margin-top: 1rem;
+  padding: 0 0.9rem 1.2rem;
+}
+
+.other-services-shell {
+  border: 1px solid #b8cdf0;
+  border-radius: 16px;
+  background: linear-gradient(180deg, #f4f8ff 0%, #ffffff 100%);
+  box-shadow: 0 10px 24px rgba(23, 47, 88, 0.12);
+  overflow: hidden;
+}
+
+.other-services-header {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 1rem;
+  padding: 1rem 1rem 0.85rem;
+  border-bottom: 1px solid #d7e3f5;
+  background: linear-gradient(90deg, #0d5fe1 0%, #0a4bb8 100%);
+  color: #fff;
+}
+
+.other-services-kicker {
+  margin: 0 0 0.2rem;
+  font-size: 0.8rem;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  opacity: 0.9;
+}
+
+.other-services-header h2 {
+  margin: 0;
+  font-size: 1.6rem;
+  line-height: 1.1;
+}
+
+.other-services-subtitle {
+  margin: 0.35rem 0 0;
+  font-size: 0.95rem;
+  max-width: 62rem;
+  color: rgba(255, 255, 255, 0.92);
+}
+
+.other-services-close-btn {
+  flex: 0 0 auto;
+  border: 1px solid rgba(255, 255, 255, 0.55);
+  background: rgba(255, 255, 255, 0.12);
+  color: #fff;
+  border-radius: 999px;
+  padding: 0.68rem 1rem;
+  font-size: 0.88rem;
+  font-weight: 700;
+  cursor: pointer;
+  transition: transform 0.2s ease, background 0.2s ease;
+}
+
+.other-services-close-btn:hover {
+  transform: translateY(-1px);
+  background: rgba(255, 255, 255, 0.18);
+}
+
+.other-services-grid {
+  display: none;
+}
+
+.other-services-sections-grid {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 0.75rem;
+  padding: 0.9rem;
+  
+}
+
+.other-services-section-column {
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+  border: 2px solid black;
+}
+
+.other-services-card {
+  border: 1px solid #b8cdf0;
+  /* border-radius: 12px; */
+  background: #fff;
+  overflow: hidden;
+  box-shadow: 0 6px 16px rgba(23, 47, 88, 0.08);
+}
+
+.other-services-card-title {
+  background: linear-gradient(90deg, #0d67f0 0%, #0a4db5 100%);
+  color: #fff;
+  text-align: center;
+  font-size: 1rem;
+  font-weight: 800;
+  padding: 0.45rem 0.65rem;
+}
+
+.other-services-card-body {
+  padding: 0.65rem 0.7rem 0.8rem;
+}
+
+.other-services-card-label {
+  margin-bottom: 0.4rem;
+  color: #17457f;
+  font-size: 0.86rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.03em;
+}
+
+.other-services-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: grid;
+  gap: 0.22rem;
+}
+
+.other-services-item-btn {
+  width: 100%;
+  border: 0;
+  background: transparent;
+  color: #111827;
+  padding: 0.25rem 0.15rem;
+  display: flex;
+  align-items: flex-start;
+  gap: 0.45rem;
+  text-align: left;
+  cursor: pointer;
+  font-size: 0.92rem;
+  line-height: 1.35;
+  font-weight: 700;
+}
+
+.other-services-item-btn:hover {
+  color: #0a4db5;
+}
+
+.other-services-item-btn:disabled {
+  opacity: 0.55;
+  cursor: not-allowed;
+}
+
+.other-services-tick {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  flex: 0 0 auto;
+  width: 1.2rem;
+  height: 1.2rem;
+  margin-top: 0.08rem;
+  border-radius: 50%;
+  background: #eaf2ff;
+  color: #0d5fe1;
+  font-size: 0.76rem;
+  font-weight: 900;
+}
+
+.other-services-footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+  padding: 0.85rem 1rem;
+  border-top: 1px solid #d7e3f5;
+  background: #f4f8ff;
+}
+
+.other-services-footer p {
+  margin: 0;
+  color: #17457f;
+  font-size: 0.92rem;
+  line-height: 1.4;
+}
+
+.other-services-footer-btn {
+  border: 0;
+  border-radius: 999px;
+  background: #0d5fe1;
+  color: #fff;
+  font-size: 0.88rem;
+  font-weight: 700;
+  padding: 0.68rem 1rem;
+  cursor: pointer;
+  white-space: nowrap;
+}
+
+.other-services-footer-btn:hover {
+  background: #0a4db5;
+}
+
+.toilet-scheme-panel {
+  padding: 1rem;
+  background: linear-gradient(180deg, #f7fbff 0%, #ffffff 100%);
+}
+
+.toilet-scheme-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 0.9rem;
+}
+
+.toilet-scheme-card {
+  border: 1px solid #b8cdf0;
+  border-radius: 12px;
+  background: #ffffff;
+  box-shadow: 0 6px 16px rgba(23, 47, 88, 0.08);
+  padding: 0.9rem 0.85rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.55rem;
+}
+
+.toilet-scheme-card h3 {
+  margin: 0;
+  color: #0e3a75;
+  font-size: 1.05rem;
+  line-height: 1.3;
+}
+
+.toilet-scheme-card p {
+  margin: 0;
+  color: #334155;
+  font-size: 0.92rem;
+  line-height: 1.4;
+  min-height: 2.6rem;
+}
+
+.toilet-scheme-card-btn {
+  margin-top: auto;
+  border: 0;
+  border-radius: 999px;
+  background: #0d5fe1;
+  color: #fff;
+  padding: 0.56rem 0.82rem;
+  font-size: 0.87rem;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.toilet-scheme-card-btn:hover {
+  background: #0a4db5;
+}
+
+.gas-booking-panel {
+  padding: 1rem;
+  background: linear-gradient(180deg, #f6faf8 0%, #ffffff 100%);
+}
+
+.gas-booking-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 0.9rem;
+}
+
+.gas-booking-card {
+  border: 1px solid #d1d5db;
+  border-radius: 12px;
+  background: #fff;
+  box-shadow: 0 8px 18px rgba(15, 23, 42, 0.07);
+  padding: 0.9rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.7rem;
+}
+
+.gas-booking-card h3 {
+  margin: 0;
+  font-size: 1.08rem;
+  color: #111827;
+  text-align: center;
+}
+
+.gas-cylinder-art {
+  width: 120px;
+  height: 150px;
+  border-radius: 20px;
+  background: linear-gradient(180deg, #e25f3a 0%, #b73816 100%);
+  box-shadow: inset 0 -10px 18px rgba(0, 0, 0, 0.16), 0 6px 12px rgba(0, 0, 0, 0.14);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.gas-cylinder-art span {
+  font-size: 1.15rem;
+  font-weight: 800;
+  color: #fff;
+  letter-spacing: 0.04em;
+}
+
+.gas-booking-actions {
+  width: 100%;
+  display: grid;
+  gap: 0.52rem;
+}
+
+.gas-booking-primary-btn,
+.gas-booking-secondary-btn,
+.gas-whatsapp-btn {
+  border: 0;
+  border-radius: 8px;
+  color: #fff;
+  padding: 0.58rem 0.72rem;
+  font-size: 0.95rem;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.gas-booking-primary-btn {
+  background: #064e3b;
+}
+
+.gas-booking-primary-btn:hover {
+  background: #065f46;
+}
+
+.gas-booking-secondary-btn,
+.gas-whatsapp-btn {
+  background: #16a34a;
+}
+
+.gas-booking-secondary-btn:hover,
+.gas-whatsapp-btn:hover {
+  background: #15803d;
+}
+
+.gas-whatsapp-block {
+  margin-top: 1rem;
+  border: 1px solid #dbe4ef;
+  border-radius: 12px;
+  padding: 0.85rem;
+  background: #f8fafc;
+}
+
+.gas-whatsapp-block h4 {
+  margin: 0 0 0.7rem;
+  font-size: 1.8rem;
+  color: #1f2937;
+}
+
+.gas-whatsapp-list {
+  display: grid;
+  gap: 0.62rem;
+}
+
+.gas-whatsapp-row {
+  border: 1px solid #e5e7eb;
+  border-radius: 12px;
+  background: #fff;
+  padding: 0.8rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 0.9rem;
+}
+
+.gas-whatsapp-provider {
+  font-size: 1.02rem;
+  font-weight: 800;
+  color: #111827;
+}
+
+.gas-whatsapp-contact {
+  margin-top: 0.2rem;
+  font-size: 0.94rem;
+  color: #4b5563;
+}
+
+.self-help-scheme-panel {
+  padding: 1rem;
+  background: linear-gradient(180deg, #f7f9ff 0%, #ffffff 100%);
+}
+
+.self-help-scheme-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 0.85rem;
+}
+
+.self-help-scheme-card {
+  border: 1px solid #cfdaf2;
+  border-radius: 12px;
+  background: #fff;
+  box-shadow: 0 8px 18px rgba(23, 47, 88, 0.08);
+  padding: 0.95rem;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 0.75rem;
+}
+
+.self-help-scheme-card h3 {
+  margin: 0;
+  color: #12356d;
+  font-size: 1.02rem;
+  line-height: 1.35;
+}
+
+.self-help-scheme-btn {
+  border: 0;
+  border-radius: 8px;
+  background: #0d5fe1;
+  color: #fff;
+  padding: 0.55rem 0.9rem;
+  font-size: 0.9rem;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.self-help-scheme-btn:hover {
+  background: #0a4db5;
+}
+
+.ration-ekyc-panel {
+  padding: 1rem;
+  display: grid;
+  gap: 0.9rem;
+  background: linear-gradient(180deg, #f8fbff 0%, #ffffff 100%);
+}
+
+.ration-ekyc-instructions-card,
+.ration-ekyc-links-card {
+  border: 1px solid #cfdbf3;
+  border-radius: 12px;
+  background: #fff;
+  box-shadow: 0 8px 18px rgba(23, 47, 88, 0.08);
+  padding: 0.95rem;
+}
+
+.ration-ekyc-instructions-card h3,
+.ration-ekyc-links-card h4 {
+  margin: 0 0 0.75rem;
+  color: #12356d;
+}
+
+.ration-ekyc-steps-list {
+  margin: 0;
+  padding-left: 1.1rem;
+  display: grid;
+  gap: 0.45rem;
+}
+
+.ration-ekyc-steps-list li {
+  color: #1f2937;
+  font-size: 0.95rem;
+  line-height: 1.45;
+}
+
+.ration-ekyc-links-list {
+  display: grid;
+  gap: 0.58rem;
+}
+
+.ration-ekyc-link-row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 0.8rem;
+  border: 1px solid #e4eaf5;
+  border-radius: 10px;
+  padding: 0.6rem 0.65rem;
+  background: #f8fbff;
+}
+
+.ration-ekyc-link-name {
+  color: #1f2937;
+  font-size: 0.93rem;
+  font-weight: 700;
+}
+
+.ration-ekyc-link-btn {
+  border: 0;
+  border-radius: 8px;
+  background: #0d5fe1;
+  color: #fff;
+  padding: 0.45rem 0.74rem;
+  font-size: 0.84rem;
+  font-weight: 700;
+  cursor: pointer;
+  white-space: nowrap;
+}
+
+.ration-ekyc-link-btn:hover {
+  background: #0a4db5;
+}
+
+.bank-balance-panel {
+  padding: 1rem;
+  background: linear-gradient(180deg, #f8f9fc 0%, #ffffff 100%);
+}
+
+.bank-balance-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 0.9rem;
+}
+
+.bank-balance-card {
+  border: 1px solid #e1e7f3;
+  border-radius: 12px;
+  background: #fff;
+  box-shadow: 0 8px 18px rgba(17, 24, 39, 0.07);
+  padding: 0.9rem;
+  display: grid;
+  gap: 0.55rem;
+}
+
+.bank-balance-card h3 {
+  margin: 0;
+  color: #1e3a8a;
+  font-size: 1.05rem;
+  line-height: 1.35;
+}
+
+.bank-balance-call,
+.bank-balance-sms {
+  text-decoration: underline;
+  font-size: 1rem;
+  font-weight: 700;
+}
+
+.bank-balance-call {
+  color: #047857;
+}
+
+.bank-balance-sms {
+  color: #be123c;
+}
+
+.bank-balance-card p {
+  margin: 0;
+  color: #6b7280;
+  font-size: 0.84rem;
+}
+
+.bank-balance-note {
+  margin-top: 0.9rem;
+  text-align: center;
+  color: #6b7280;
+  font-size: 0.92rem;
+  font-weight: 600;
+}
+
+@media (max-width: 1200px) {
+  .other-services-sections-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .toilet-scheme-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .gas-booking-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .self-help-scheme-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .bank-balance-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+
+@media (max-width: 700px) {
+  .other-services-section {
+    padding: 0 0.55rem 0.9rem;
+  }
+
+  .other-services-sections-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .toilet-scheme-panel {
+    padding: 0.7rem;
+  }
+
+  .toilet-scheme-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .gas-booking-panel {
+    padding: 0.7rem;
+  }
+
+  .gas-booking-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .self-help-scheme-panel {
+    padding: 0.7rem;
+  }
+
+  .self-help-scheme-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .bank-balance-panel {
+    padding: 0.7rem;
+  }
+
+  .bank-balance-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .ration-ekyc-panel {
+    padding: 0.7rem;
+  }
+
+  .ration-ekyc-link-row {
+    flex-direction: column;
+    align-items: stretch;
+  }
+
+  .gas-whatsapp-block h4 {
+    font-size: 1.25rem;
+  }
+
+  .gas-whatsapp-row {
+    flex-direction: column;
+    align-items: stretch;
+  }
+
+  .toilet-scheme-card h3 {
+    font-size: 1rem;
+  }
+
+  .other-services-header,
+  .other-services-footer {
+    flex-direction: column;
+    align-items: stretch;
+  }
+
+  .other-services-header h2 {
+    font-size: 1.25rem;
+  }
+
+  .other-services-subtitle,
+  .other-services-footer p {
+    font-size: 0.85rem;
+  }
+
+  .other-services-grid {
+    grid-template-columns: 1fr;
+    gap: 0.55rem;
+    padding: 0.6rem;
+  }
+
+  .other-services-item-btn {
+    font-size: 0.88rem;
+  }
+}
